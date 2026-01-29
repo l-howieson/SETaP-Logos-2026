@@ -34,4 +34,8 @@ t.forward(85)
 t.teleport(p[0]+80,p[1]-35)
 make_e(t,radius=50)
 
+p=t.pos()
+t.teleport(p[0]+80, p[1] - 50)
+make_e(t, radius=50)
+
 input()
