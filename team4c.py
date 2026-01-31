@@ -195,7 +195,7 @@ def drawHanger(startx, starty):
     t.goto(startx, starty)
     t.pendown()
     t.setheading(205) 
-    t.forward(320)     
+    t.forward(350)     
     
     t.setheading(0)   
     t.forward(60)     
@@ -204,7 +204,7 @@ def drawHanger(startx, starty):
     t.goto(startx, starty)
     t.pendown()
     t.setheading(335) 
-    t.forward(320)     
+    t.forward(350)     
     t.setheading(180)  
     t.forward(60)
     
@@ -215,4 +215,5 @@ drawR(-130, 0)
 drawY(-30, 60)
 drawF(30, 0)
 drawT(120, 100)
+drawHanger(-65, 250)
 turtle.done()
