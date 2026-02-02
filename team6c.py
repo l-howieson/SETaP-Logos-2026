@@ -218,7 +218,7 @@ def spatula_head():
     t.end_fill()
 
 
-def spoon_whole():
+def spatula_whole():
     handle()
     t.pensize(10)
     t.penup()
@@ -231,6 +231,6 @@ def spoon_whole():
     t.circle(50)
     shaft()
     spatula_head()
-spoon_whole()
+spatula_whole()
 t.done()
 
