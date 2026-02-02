@@ -9,7 +9,7 @@ screen = t.Screen()
 screen.setworldcoordinates(0,0,1000,1000)
 
 
-#speed cus im not waiting
+
 t.speed(0)
 #thicker lines
 t.pensize(10)
@@ -24,7 +24,7 @@ def head():
     t.penup()
     t.goto(450,220)
     t.pendown()
-    #orientation of the arrow u cant see it at full speed lower for demonostration
+    #orientation of the arrow 
     t.setheading(270)
     t.circle(50,180)
     t.setheading(0)
@@ -169,7 +169,7 @@ def chief_hat():
 
 chief_hat()
 
-#spatula but im thinking circle for hand and then bigger rectangle for handle and so on
+
 def handle():
     t.fillcolor("BLACK")
     corners = [(700,150),(650,50),(700,30),(750,130)]
